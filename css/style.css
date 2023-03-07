@@ -200,10 +200,20 @@ img{
     grid-column-end: 4;
     border-bottom-left-radius: 1rem
 }
+.producto:nth-child(2) img{
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+}
 .producto:nth-child(3){
     grid-column-start: 4;
     grid-column-end: 7;
     border-bottom-right-radius: 1rem
+}
+.producto:nth-child(3) img{
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
 }
 .producto:nth-child(4){
     grid-column-start: 1;
@@ -239,4 +249,29 @@ img{
     font-size: 2.8rem;
     font-weight: 900;
     text-align: center;
+}
+
+/* Footer */
+.site-footer{
+    border-top: .1rem solid #e1e1e1;
+    margin-top: 5rem;
+    padding-top: 5rem;
+}
+
+.site-footer h3{
+    margin-bottom: .5rem;
+}
+
+.grid-footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer-menu a{
+    display: block;
+}
+
+.copyrigth{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
 }
